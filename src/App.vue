@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-      <h1>DEPLOYED TO NETLIFY!<h1/>
+      <h1> What happend man? <h1 />
     </div>
     <router-view/>
   </div>
