@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h1> What happend man? <h1 />
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">about!</router-link>
+      <router-link to="/sparta">Sparta!</router-link>
     </div>
     <router-view/>
   </div>
